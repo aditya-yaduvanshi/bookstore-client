@@ -12,12 +12,12 @@ const Signup = () => {
           alt="pustakalay"
           className="h-10 md:h-14 absolute top-16"
         />
-        <form className="border shadow-lg p-5 rounded-xl w-full md:max-w-sm flex flex-col gap-5">
+        <form className="sm:border sm:shadow-lg p-5 rounded-xl w-full sm:max-w-sm flex flex-col gap-5 sm:bg-white">
           <section className="text-center">
             <h2 className="text-lg text-semibold text-gray-800">SIGNUP</h2>
             <p className="text-gray-600">Join pustakalay now!</p>
           </section>
-          <section className="flex flex-col gap-2.5">
+          <section className="flex flex-col gap-2.5 bg-white rounded-lg">
             <Input name="name" type="text" placeholder="Full Name" />
             <Input name="email" type="email" placeholder="Email" />
             <Input name="password" type="password" placeholder="Password" />
