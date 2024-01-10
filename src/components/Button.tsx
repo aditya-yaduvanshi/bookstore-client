@@ -33,7 +33,7 @@ const Button = ({
   return (
     <button
       {...rest}
-      className={`transition-all duration-50 active:scale-95 text-sm md:text-base rounded-lg disabled:opacity-40 tracking-wide font-semibold flex justify-center items-center gap-2.5 py-2 px-2.5 ${variantClass[variant]} ${colorClass[color]} ${className}`}
+      className={`transition-all duration-50 active:scale-95 text-sm sm:text-base rounded-lg disabled:opacity-40 tracking-wide font-semibold flex justify-center items-center gap-2.5 py-2 px-2.5 ${variantClass[variant]} ${colorClass[color]} ${className}`}
     >
       {children}
     </button>
