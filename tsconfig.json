@@ -12,6 +12,7 @@
       "@/hooks/*": ["hooks/*"],
       "@/consts/*": ["consts/*"],
       "@/types/*": ["types/*"],
+      "@/redux/*": ["redux/*"],
     },
     "types": ["unplugin-icons/types/react"],
 
