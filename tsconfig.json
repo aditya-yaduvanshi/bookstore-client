@@ -13,6 +13,7 @@
       "@/consts/*": ["consts/*"],
       "@/types/*": ["types/*"],
       "@/redux/*": ["redux/*"],
+      "@/hoc/*": ["hoc/*"],
     },
     "types": ["unplugin-icons/types/react"],
 
