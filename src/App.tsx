@@ -4,6 +4,7 @@ import Signup from "@/pages/signup";
 import Login from "@/pages/login";
 import Home from "@/pages/home";
 import Books from "@/pages/books";
+import PublishBook from "@/pages/publishBook";
 import PrivateOutlet from "@/hoc/PrivateOutlet";
 import useAuth from "@/hooks/useAuth";
 
@@ -22,8 +23,9 @@ const App = () => {
           <Route path="signup" element={<Signup />} />
           <Route path="login" element={<Login />} />
         </Route>
-        <Route element={<PrivateOutlet />}>
-          <Route path="books" element={<Books />} />
+        <Route path="books" element={<PrivateOutlet />}>
+          <Route path="" element={<Books />} />
+          <Route path="publish" element={<PublishBook />} />
         </Route>
       </Routes>
     </BrowserRouter>
